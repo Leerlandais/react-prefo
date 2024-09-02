@@ -1,39 +1,17 @@
 
 import './App.css';
 
+// My Components
+import Footer from './components/Footer';
+import Header from "./components/Header";
+
+// My Pages
+
+
 function App() {
   return (
       <div className="App">
-        <header>
-          <nav>
-            <div>
-              <hr/>
-              <h1 id="hspec">Site Préformation de Lee Brennan</h1>
-              <hr/>
-            </div>
-            <ul>
-              <a href="index.html">
-                <li>Home</li>
-              </a>
-              <a href="entreprise/rapport.html">
-                <li>Entreprise</li>
-              </a>
-              <a href="entreprise/inter2.html">
-                <li>Interview</li>
-              </a>
-              <a href="expo/museum.html">
-                <li>Musée</li>
-              </a>
-              <a href="expo/galerie1.html">
-                <li>Galerie</li>
-              </a>
-              <a href="conclusion.html">
-                <li>Conclusion</li>
-              </a>
-            </ul>
-          </nav>
-
-        </header>
+<Header />
         <h2>Home</h2>
 
         <div>
@@ -73,13 +51,7 @@ function App() {
           <p>Au début de l'été, un bon ami, Mark Harris, m'a parlé du CF2M et des excellents cours disponibles là-bas.
             J'ai parcouru les cours disponibles, j'ai vu celui de WebDev et le reste appartient à "l'histoire"...</p>
         </div>
-        <footer>
-          <hr/>
-          <h4 id="copyright">
-            &copy; Lee Brennan
-          </h4>
-          <hr/>
-        </footer>
+      <Footer />
       </div>
   );
 }

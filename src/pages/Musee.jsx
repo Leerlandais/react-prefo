@@ -1,10 +1,10 @@
-import ImageExpo1 from "../components/ImageExpo1";
+import Image from "../components/Image";
 import ImageExpo2 from "../components/ImageExpo2";
 function Musee() {
     return(
     <>
         <h2>Musée</h2>
-        <ImageExpo1 />
+        <Image src="./images/thumb/photo37.jpg" alt="Musee" id="expoimg" />
     <div>
         <p class="museum1">
             Perdu dans le manque d'orientation donnée dans le 'musée', il était parfois difficile de suivre. Tant de machines jetées ensemble dans des chronologies variées rendaient difficile de trouver un chemin à travers le monde de l'informatique.

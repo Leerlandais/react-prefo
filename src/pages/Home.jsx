@@ -1,8 +1,9 @@
-import ImageMe from "../components/ImageMe";
+
+import Image from "../components/Image";
 function Home() {
     return (
         <div id="intro">
-        <ImageMe />
+        <Image src="/images/Me.jpg" alt="Pic of me" id="me" />
             <p> Comme je l'ai peut-être mentionné à plusieurs reprises, j'ai grandi avec des ordinateurs. Quand j'avais
                 2
                 ans, mon père a acheté le tout premier ordinateur domestique <em>(Commodore Pet)</em> et toutes les

@@ -1,8 +1,8 @@
-import ImageErg from "../components/ImageErg";
+import Image from "../components/Image";
 function Enterprise() {
     return(
         <>
-            <ImageErg />
+            <Image src="../images/ERG.png" alt="ERG" id="entreimg" />
     <div id="rappad"><br /><br /><br />
         <h2>L'Ecole de Recherche Graphique</h2>
         <p>

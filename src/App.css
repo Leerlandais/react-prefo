@@ -88,11 +88,7 @@ h3 {
   margin: 0 5px;
 }
 
-nav ul a {
-  /* color: black; */
-}
-
-nav ul li:hover {
+.myLink:hover {
   background-color: #b8b08d;
 }
 

@@ -1,29 +1,28 @@
 import Image from "../components/Image";
-import ImageExpo2 from "../components/ImageExpo2";
 function Musee() {
     return(
     <>
         <h2>Musée</h2>
-        <Image src="./images/thumb/photo37.jpg" alt="Musee" id="expoimg" />
+        <Image src="./images/thumb/photo37.jpg" alt="Musee" id="expoimg" w="350px" />
     <div>
-        <p class="museum1">
+        <p className="museum1">
             Perdu dans le manque d'orientation donnée dans le 'musée', il était parfois difficile de suivre. Tant de machines jetées ensemble dans des chronologies variées rendaient difficile de trouver un chemin à travers le monde de l'informatique.
             Seule la partie de l'exposition consacrée aux femmes dans l'histoire de l'informatique avait une forme de cohérence (bien que l'absence de mention de Judith Love Cohen soit à la fois surprenante et décevante)!</p>
-        <p class="museum1">
+        <p className="museum1">
             J'ai été ravi de trouver un <strong>Commodore Pet</strong> (qui était 'mon' tout premier ordinateur en 1977) dans le musée, qui malheureusement ne fonctionnait pas. Heureusement, il y avait un autre ordinateur de la même époque qui fonctionnait toujours.
             J'ai passé une demi-heure agréable avec André en essayant de compléter un programme simple en <em><strong>BASIC</strong></em> (un langage qui pourrait être comparé au latin en ce sens qu'il n'est plus utilisé mais qu'il est à la base de nombreux autres langages). Avec mes connaissances perdues depuis longtemps en <em><strong>BASIC</strong></em> et André travaillant comme une sorte de reverse-archéologue, déchiffrant comment coder en <em><strong>BASIC</strong></em> en utilisant sa connaissance de langages "futuristes", nous avons finalement réussi à dessiner un cercle, une spirale et d'autres formes de base géométriques.</p>
-        <p class="museum1">
+        <p className="museum1">
             En parcourant le musée, il est facile de voir comment les ordinateurs ont évolué en termes de taille et de design, mais ce qui m'a le plus marqué, c'est que non seulement les machines sont devenues plus petites et plus rapides, mais les langages se sont également développés de manière exponentielle à leurs côtés.</p>
 
         <hr />
 
             <h2>Un petit mot pour Judith</h2>
 
-            <ImageExpo2 />
-            <p class="museum2">
+            <Image src={"./images/thumb/photo45.jpg"} alt="Pic of the Women of IT" id={"expoimg2"} w={"300px"} h={"350px"} />
+            <p className="museum2">
                 Oublié dans 'Les Femmes Remarquables dans l'Histoire de l'informatique, Judith Love Cohen était une ingénieuse aérospatiale. Ses travaux d'ingénierie comprenaient des travaux sur l'ordinateur de guidage du missile 'Minuteman', the 'Hubble Space Telescope' et sur le système de guidage d'abandon (AGS - de l'Anglais : Abort Guidance System) du module lunaire Apollo.<br /> En Avril 1970, L'AGS a joué un rôle important dans le retour en toute sécurité d'Apollo 13 après qu'une explosion du réservoir d'oxygène a paralysé le module de service et forcé les astronautes à utiliser le module lunaire comme 'lifeboat'.
                 Lorsque le désastre a frappé la mission Apollo 13, c'était l'AGS qui a ramené les astronautes chez eux en toute sécurité.</p>
-            <p class="museum2">En outre, il manquait toute mention de :-</p>
+            <p className="museum2">En outre, il manquait toute mention de :-</p>
             <dl id="ladies">
                 <ul className={"museeUl"}>
                     <li><dt><a href="#dropFE">Frances Elizabeth Allen</a></dt></li>

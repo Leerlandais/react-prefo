@@ -337,7 +337,13 @@ dd:target {
   margin-bottom: 20px;
 }
 
+.ergUl {
+  text-align: left;
+}
 
+p{
+  text-align: justify;
+}
 /*   -------------------------FIN DU SELECTORS RAPPORT ---------------------------- */
 
 

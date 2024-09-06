@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-function Image({src, alt, id, h, w}) {
+export default function Image({src, alt, id, h, w}) {
     return (
         <div>
             <img src={src} alt={alt} id={id} height={h} width={w}/>
@@ -19,4 +19,3 @@ Image.propTypes = {
     h: PropTypes.string,
     w: PropTypes.string,
 };
-export default Image

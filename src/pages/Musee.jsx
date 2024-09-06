@@ -3,7 +3,7 @@ function Musee() {
     return(
     <>
         <h2>Musée</h2>
-        <Image src="./images/thumb/photo37.jpg" alt="Musee" id="expoimg" w="350px" />
+        <Image src="/images/thumb/photo37.jpg" alt="Musee" id="expoimg" w="350px" />
     <div>
         <p className="museum1">
             Perdu dans le manque d'orientation donnée dans le 'musée', il était parfois difficile de suivre. Tant de machines jetées ensemble dans des chronologies variées rendaient difficile de trouver un chemin à travers le monde de l'informatique.
@@ -18,7 +18,7 @@ function Musee() {
 
             <h2>Un petit mot pour Judith</h2>
 
-            <Image src={"./images/thumb/photo45.jpg"} alt="Pic of the Women of IT" id={"expoimg2"} w={"300px"} h={"350px"} />
+            <Image src={"/images/thumb/photo45.jpg"} alt="Pic of the Women of IT" id={"expoimg2"} w={"300px"} h={"350px"} />
             <p className="museum2">
                 Oublié dans 'Les Femmes Remarquables dans l'Histoire de l'informatique, Judith Love Cohen était une ingénieuse aérospatiale. Ses travaux d'ingénierie comprenaient des travaux sur l'ordinateur de guidage du missile 'Minuteman', the 'Hubble Space Telescope' et sur le système de guidage d'abandon (AGS - de l'Anglais : Abort Guidance System) du module lunaire Apollo.<br /> En Avril 1970, L'AGS a joué un rôle important dans le retour en toute sécurité d'Apollo 13 après qu'une explosion du réservoir d'oxygène a paralysé le module de service et forcé les astronautes à utiliser le module lunaire comme 'lifeboat'.
                 Lorsque le désastre a frappé la mission Apollo 13, c'était l'AGS qui a ramené les astronautes chez eux en toute sécurité.</p>

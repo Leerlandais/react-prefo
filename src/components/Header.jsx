@@ -1,6 +1,6 @@
 
 import Link from "./Link";
-function Header () {
+export default function Header () {
     return (
         <header>
         <nav>
@@ -22,4 +22,3 @@ function Header () {
     );
 }
 
-export default Header;

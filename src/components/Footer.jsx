@@ -1,5 +1,5 @@
 
-function Footer() {
+export default function Footer() {
     return (
         <footer>
             <hr/>
@@ -11,4 +11,3 @@ function Footer() {
     )
 }
 
-export default Footer;

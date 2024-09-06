@@ -97,6 +97,9 @@ footer {
   font-style: italic;
   font-family: cursive;
 }
+footer a {
+  color: black;
+}
 
 #copyright{                 /*  Une autre forme d'animation pour le Footer  */
   transition: transform 50s ease-in-out;

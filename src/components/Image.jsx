@@ -19,3 +19,4 @@ Image.propTypes = {
     h: PropTypes.string,
     w: PropTypes.string,
 };
+

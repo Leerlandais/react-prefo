@@ -10,12 +10,12 @@ export default function Header () {
                 <hr/>
             </div>
             <ul>
-                <Link linkTo="/" linkName="Home"/>
-                <Link linkTo="/Enterprise" linkName="Enterprise"/>
-                <Link linkTo="/Interview" linkName="Interview"/>
-                <Link linkTo="/Musee" linkName="Musée"/>
-                <Link linkTo="/Gallery" linkName="Galerie"/>
-                <Link linkTo="/Conclusion" linkName="Conclusion"/>
+                <Link className={"myLink"} linkTo="/" linkName="Home"/>
+                <Link className={"myLink"} linkTo="/Enterprise" linkName="Enterprise"/>
+                <Link className={"myLink"} linkTo="/Interview" linkName="Interview"/>
+                <Link className={"myLink"} linkTo="/Musee" linkName="Musée"/>
+                <Link className={"myLink"} linkTo="/Gallery" linkName="Galerie"/>
+                <Link className={"myLink"} linkTo="/Conclusion" linkName="Conclusion"/>
                 </ul>
             </nav>
         </header>

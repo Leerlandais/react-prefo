@@ -19,7 +19,7 @@ function Enterprise() {
             </ul>
         </p>
         <p>
-            Le site de <a href="https://wiki.erg.be/m/#Bienvenue_%C3%A0_l%E2%80%99erg" target="_blank">l'erg</a> fait l'état des lieux d'un processus, il constitue une forme en constante évolution.
+            Le site de <a href="https://wiki.erg.be/m/#Bienvenue_%C3%A0_l%E2%80%99erg" target="_blank" rel="noreferrer" >l'erg</a> fait l'état des lieux d'un processus, il constitue une forme en constante évolution.
 
             Articulé comme une plateforme, il propose un mode d'emploi de l'erg (inventaire détaillé des cours, des outils techniques, théoriques, collectifs et restitue leurs interactions) et agrège l'actualité des blogs de cours, sites satellites et autres traces des activités de l'erg.
 

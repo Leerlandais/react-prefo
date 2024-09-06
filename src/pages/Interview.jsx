@@ -9,9 +9,9 @@ function Interview() {
                     <p className="interintro">J'ai envoyé un message à quelques amis pour leur dire que je cherchais
                         quelqu'un à interviewer pour mon site. J'ai eu de la chance et deux personnes de milieux très
                         différents se sont portées volontaires. À gauche se trouve <a
-                            href="https://www.linkedin.com/in/jddpro" target="_blank">JD Davis</a>, qui travaille de
+                            href="https://www.linkedin.com/in/jddpro" target="_blank" rel="noreferrer" >JD Davis</a>, qui travaille de
                         manière indépendante à Austin, au Texas. À droite se trouve <a
-                            href="https://be.linkedin.com/in/martin-copyright" target="_blank">Martin Copyright</a>, qui
+                            href="https://be.linkedin.com/in/martin-copyright" target="_blank" rel="noreferrer" >Martin Copyright</a>, qui
                         travaille pour ERG ici même à Bruxelles </p>
 
                     <p className="interintro"><em><strong>Cliquez sur une question pour voir comment ils ont

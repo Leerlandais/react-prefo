@@ -1,10 +1,10 @@
-
+import Link from "./Link";
 export default function Footer() {
     return (
         <footer>
             <hr/>
             <h4 id="copyright">
-                &copy; Lee Brennan
+                &copy; <Link linkTo={"http://leerlandais.com"} linkName={"Leerlandais"} />
             </h4>
             <hr/>
         </footer>
